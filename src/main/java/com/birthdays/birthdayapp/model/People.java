@@ -1,19 +1,14 @@
 package com.birthdays.birthdayapp.model;
 
 import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.RequiredArgsConstructor;
-import lombok.ToString;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-@Data
-@ToString
-@RequiredArgsConstructor
 
+@Data
 @Entity
 public class People {
     @Id
@@ -26,5 +21,12 @@ public class People {
 
     private long dob;
 
+    public People(String name, String surname, long dob) {
+        this.name = name;
+        this.surname = surname;
+        this.dob = dob;
+    }
 
+    public People() {
+    }
 }

@@ -1,0 +1,40 @@
+GET http://localhost:8080
+
+<> 2022-03-04T015521.200.json
+
+###
+
+GET http://localhost:8080/api/v1/birthday-app/people/get-all
+
+<> 2022-03-04T014329.500.json
+
+###
+
+GET http://localhost:8080/api/v1/birthday-app/people/get-all
+
+<> 2022-03-04T014237.500.json
+
+###
+
+GET http://localhost:8080/api/v1/birthday-app/people/get-all
+
+<> 2022-03-04T013858.500.json
+
+###
+
+GET http://localhost:8080/api/v1/birthday-app/people/get-all
+
+<> 2022-03-04T005304.500.json
+
+###
+
+GET http://localhost:8080/api/v1/birthday-app/people/get-all
+
+###
+
+GET http://localhost:8080/api/v1/birthday-app/people
+
+<> 2022-03-02T161017.404.json
+
+###
+
