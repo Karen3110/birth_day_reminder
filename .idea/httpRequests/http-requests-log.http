@@ -1,3 +1,25 @@
+GET http://localhost:8080/people/get-surname/1
+
+<> 2022-03-04T122752.200.json
+
+###
+
+GET http://localhost:8080/people/get-surname/{{surname}}
+
+###
+
+GET http://localhost:8080/people
+
+<> 2022-03-04T103226.200.json
+
+###
+
+GET http://localhost:8080/people
+
+<> 2022-03-04T103155.404.json
+
+###
+
 GET http://localhost:8080
 
 <> 2022-03-04T015521.200.json
